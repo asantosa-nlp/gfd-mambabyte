@@ -1,0 +1,1 @@
+The selection component contains the checkpoint-selection launch scripts. The main entry point is `launch_ckptsel1k.sh`, which evaluates the 10k / 20k / 30k / 40k CPT checkpoints on the 1,000-utterance search set.

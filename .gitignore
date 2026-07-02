@@ -1,0 +1,52 @@
+experiments/rescoring/nbest/
+experiments/rescoring/rescored/
+experiments/rescoring/*_rescored/
+
+# Internal revision-workflow artifacts (not part of the public reproduction path)
+WRITING/
+unit_clarification/
+repro_clarification/
+curation_verification/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments / local env files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checker caches
+.mypy_cache/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor state
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

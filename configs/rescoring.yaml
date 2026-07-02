@@ -1,0 +1,57 @@
+# Rescoring baseline configuration for reviewer comment R2Q2b.
+#
+# This file records the exact fixed values used in the post-hoc N-best
+# rescoring experiment. The baseline is intentionally held to the same
+# checkpoint, fusion weights, byte limits, and permutation-test protocol as
+# the first-pass GFD method; only the LM application time differs.
+
+experiment:
+  name: rescoring_baseline_r2q2b
+  nbest_size: 10
+  whisper_model: openai/whisper-large-v3
+  zero_shot_language_code:
+    jv: jw
+    su: su
+  nbest_generation:
+    do_sample: true
+    temperature: 0.7
+    top_p: 0.9
+    num_beams: 1
+    num_return_sequences: 10
+    seed: 42
+
+paths:
+  nbest_dir: experiments/rescoring/nbest
+  summary_dir: experiments/rescoring/summaries
+  results_dir: experiments/rescoring
+  jv_nbest_file: experiments/rescoring/nbest/jv_t07_topp09_s42/jv_nbest.jsonl
+  su_nbest_file: experiments/rescoring/nbest/su_t07_topp09_s42/su_nbest.jsonl
+
+lm:
+  model_name_or_path: JunxiongWang/MambaByte_PG19_972M
+  dtype: float32
+  checkpoint:
+    jv: checkpoints/mb_cpt_jv_v5_clean/step_0020000.pt
+    su: checkpoints/mb_cpt_su_v5_clean/step_0020000.pt
+
+fusion:
+  alpha: 0.20
+  lambda:
+    jv: 0.70
+    su: 0.80
+  min_output_bytes:
+    jv: 30
+    su: 15
+  max_output_bytes: 160
+  repetition_filter:
+    min_unit_bytes: 2
+    max_unit_bytes:
+      jv: 16
+      su: 8
+    min_reps: 4
+  long_word_filter:
+    max_word_bytes: 25
+
+permutation_test:
+  seed: 42
+  num_permutations: 10000

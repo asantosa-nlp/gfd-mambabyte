@@ -1,0 +1,31 @@
+{
+  "lang": "jv",
+  "n_utterances": 460,
+  "lambda": 0.7,
+  "alpha": 0.2,
+  "min_output_bytes": 30,
+  "max_output_bytes": 160,
+  "zero_shot": {
+    "wer": 0.5815955674274422,
+    "cer": 0.14435601532559822
+  },
+  "rescoring": {
+    "wer": 0.6052717803221737,
+    "cer": 0.1547315919620376
+  },
+  "oracle": {
+    "wer": 0.4772487326690444,
+    "cer": 0.11749209719846038
+  },
+  "gfd": {
+    "wer": 0.5186914260284666,
+    "cer": 0.15619587212446792
+  },
+  "paired_delta_gfd_minus_rescoring": -0.08658035429370742,
+  "permutation_test": {
+    "seed": 42,
+    "num_permutations": 10000,
+    "p_value": 9.999000099990002e-05
+  },
+  "nbest_file": "experiments/rescoring/nbest/jv_t07_topp09_s42/jv_nbest.jsonl"
+}

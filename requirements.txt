@@ -1,0 +1,14 @@
+# Core dependencies for GFD_MAMBA
+# MambaByte and SSM inference
+mamba-ssm>=1.2.0
+causal-conv1d>=1.1.0
+
+# LoRA fine-tuning
+peft>=0.9.0
+
+# Shared with GFD_BLT
+jiwer
+librosa
+torch>=2.1.0
+transformers>=4.40.0
+pyyaml

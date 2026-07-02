@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated IJIES paper."
+title: "Generative Fusion Decoding with MambaByte for Low-Resource Regional Language Speech Recognition: A Case Study on Javanese and Sundanese"
+authors:
+  - family-names: Santosa
+    given-names: Agung
+  - family-names: Jarin
+    given-names: Asril
+  - family-names: Aini
+    given-names: Lyla Ruslana
+  - family-names: Yuniarno
+    given-names: Eko Mulyanto
+  - family-names: Riza
+    given-names: Hammam
+  - family-names: Purnomo
+    given-names: Mauridhi Hery
+version: "1.0"
+date-released: "<YYYY-MM-DD>"
+license: "MIT"
+doi: "<DOI_TBD>"

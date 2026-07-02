@@ -1,0 +1,1 @@
+The decoding component is the GFD byte-search core. The main entry point is `gfd/byte_gfd.py`, which expands Whisper byte candidates, scores them with the prefix-trie-cached MambaByte LM in `gfd/lm_adapters.py`, and applies the beam / repetition / length heuristics used in the paper.

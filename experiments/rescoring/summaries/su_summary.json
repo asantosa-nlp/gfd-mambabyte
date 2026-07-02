@@ -1,0 +1,31 @@
+{
+  "lang": "su",
+  "n_utterances": 460,
+  "lambda": 0.8,
+  "alpha": 0.2,
+  "min_output_bytes": 15,
+  "max_output_bytes": 160,
+  "zero_shot": {
+    "wer": 0.6163613819493647,
+    "cer": 0.12696708164192902
+  },
+  "rescoring": {
+    "wer": 0.6320705701975886,
+    "cer": 0.1330457600304307
+  },
+  "oracle": {
+    "wer": 0.5228735583862448,
+    "cer": 0.11393154359862605
+  },
+  "gfd": {
+    "wer": 0.5471782335349095,
+    "cer": 0.13325274797959782
+  },
+  "paired_delta_gfd_minus_rescoring": -0.08489233666267926,
+  "permutation_test": {
+    "seed": 42,
+    "num_permutations": 10000,
+    "p_value": 9.999000099990002e-05
+  },
+  "nbest_file": "experiments/rescoring/nbest/su_t07_topp09_s42/su_nbest.jsonl"
+}

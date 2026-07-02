@@ -1,0 +1,26 @@
+lm:
+  model_name_or_path: JunxiongWang/MambaByte_PG19_972M
+  device: cuda
+  lora_config:
+    rank: 32
+    alpha: 64.0
+    dropout: 0.05
+    target_modules: [in_proj, out_proj, x_proj, dt_proj, lm_head]
+
+train:
+  # v5 CLEAN: identical to cpt_su_v5.yaml but trained on the DE-LEAKED corpus.
+  # combined_su_v2_clean.txt = cc100_su + wikipedia_su + transcripts_su_clean
+  # (all 460 blind + 1000 search reference sentences removed; see WRITING/clean_corpus.py
+  #  and WRITING/LEAKAGE_FIX_PLAN.md). Hyperparameters unchanged from v5.
+  text_file: data/text_corpus/combined_su_v2_clean.txt
+  seq_len: 1024
+  batch_size: 4
+  grad_accum_steps: 4
+  total_steps: 40000
+  lr: 2.0e-4
+  min_lr: 1.0e-5
+  warmup_steps: 1000
+  weight_decay: 0.01
+  save_every: 1000
+  log_every: 20
+  checkpoint_dir: checkpoints/mb_cpt_su_v5_clean

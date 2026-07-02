@@ -1,0 +1,164 @@
+# Extraction log
+
+- requirements.txt → requirements.txt (copied verbatim)
+- LICENSE ← [generated]
+- README.md ← [generated]
+- CITATION.cff ← [generated]
+- configs/cpt_jv_v5_clean.yaml → configs/cpt_jv_v5_clean.yaml (copied verbatim)
+- configs/cpt_su_v5_clean.yaml → configs/cpt_su_v5_clean.yaml (copied verbatim)
+- configs/mb_jv_nocpt_blind_lm70_ag0.20.yaml → configs/mb_jv_nocpt_blind_lm70_ag0.20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS10k_ckptsel1k.yaml → configs/mb_jv_zs_large_v5cleanS10k_ckptsel1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS10k_no_gate_lnews_lm70_ag0.20.yaml → configs/mb_jv_zs_large_v5cleanS10k_no_gate_lnews_lm70_ag0.20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_ckptsel1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_ckptsel1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag15.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag15.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag15_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag15_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag20.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag20_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag20_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag25.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag25.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag25_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm60_ag25_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag15.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag15.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag15_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag15_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag20.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag20_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag20_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag25.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag25.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag25_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm70_ag25_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag15.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag15.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag15_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag15_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag20.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag20_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag20_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag25.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag25.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag25_1k.yaml → configs/mb_jv_zs_large_v5cleanS20k_gs_lm80_ag25_1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_no_gate_lnews_lm70_ag0.20.yaml → configs/mb_jv_zs_large_v5cleanS20k_no_gate_lnews_lm70_ag0.20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS30k_ckptsel1k.yaml → configs/mb_jv_zs_large_v5cleanS30k_ckptsel1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS30k_no_gate_lnews_lm70_ag0.20.yaml → configs/mb_jv_zs_large_v5cleanS30k_no_gate_lnews_lm70_ag0.20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS40k_no_gate_lnews_lm70_ag0.20.yaml → configs/mb_jv_zs_large_v5cleanS40k_no_gate_lnews_lm70_ag0.20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_ckptsel1k.yaml → configs/mb_jv_zs_large_v5clean_ckptsel1k.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gate_lnews_lm70_ag0.20.yaml → configs/mb_jv_zs_large_v5clean_gate_lnews_lm70_ag0.20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm60_ag15.yaml → configs/mb_jv_zs_large_v5clean_gs_lm60_ag15.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm60_ag20.yaml → configs/mb_jv_zs_large_v5clean_gs_lm60_ag20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm60_ag25.yaml → configs/mb_jv_zs_large_v5clean_gs_lm60_ag25.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm70_ag15.yaml → configs/mb_jv_zs_large_v5clean_gs_lm70_ag15.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm70_ag20.yaml → configs/mb_jv_zs_large_v5clean_gs_lm70_ag20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm70_ag25.yaml → configs/mb_jv_zs_large_v5clean_gs_lm70_ag25.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm80_ag15.yaml → configs/mb_jv_zs_large_v5clean_gs_lm80_ag15.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm80_ag20.yaml → configs/mb_jv_zs_large_v5clean_gs_lm80_ag20.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_gs_lm80_ag25.yaml → configs/mb_jv_zs_large_v5clean_gs_lm80_ag25.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5clean_no_gate_lnews_lm70_ag0.20.yaml → configs/mb_jv_zs_large_v5clean_no_gate_lnews_lm70_ag0.20.yaml (copied verbatim)
+- configs/mb_su_nocpt_blind_lm80_ag0.20_minb15.yaml → configs/mb_su_nocpt_blind_lm80_ag0.20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS10k_ckptsel1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS10k_ckptsel1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS10k_no_gate_lnews_lm70_ag0.20_minb15.yaml → configs/mb_su_zs_large_v5cleanS10k_no_gate_lnews_lm70_ag0.20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_ckptsel1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_ckptsel1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag15_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag15_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag15_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag15_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag20_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag20_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag20_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag25_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag25_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag25_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm60_ag25_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag15_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag15_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag15_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag15_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag20_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag20_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag20_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag25_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag25_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag25_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm70_ag25_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag15_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag15_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag15_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag15_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag20_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag20_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag20_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag25_1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag25_1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag25_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag25_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_no_gate_lnews_lm70_ag0.20_minb15.yaml → configs/mb_su_zs_large_v5cleanS20k_no_gate_lnews_lm70_ag0.20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS30k_ckptsel1k_minb15.yaml → configs/mb_su_zs_large_v5cleanS30k_ckptsel1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS30k_no_gate_lnews_lm70_ag0.20_minb15.yaml → configs/mb_su_zs_large_v5cleanS30k_no_gate_lnews_lm70_ag0.20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS40k_no_gate_lnews_lm70_ag0.20_minb15.yaml → configs/mb_su_zs_large_v5cleanS40k_no_gate_lnews_lm70_ag0.20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_ckptsel1k_minb15.yaml → configs/mb_su_zs_large_v5clean_ckptsel1k_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gate_lnews_lm70_ag0.20_minb15.yaml → configs/mb_su_zs_large_v5clean_gate_lnews_lm70_ag0.20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm60_ag15_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm60_ag15_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm60_ag20_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm60_ag20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm60_ag25_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm60_ag25_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm70_ag15_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm70_ag15_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm70_ag20_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm70_ag20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm70_ag25_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm70_ag25_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm80_ag15_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm80_ag15_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm80_ag20_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm80_ag20_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_gs_lm80_ag25_minb15.yaml → configs/mb_su_zs_large_v5clean_gs_lm80_ag25_minb15.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5clean_no_gate_lnews_lm70_ag0.20_minb15.yaml → configs/mb_su_zs_large_v5clean_no_gate_lnews_lm70_ag0.20_minb15.yaml (copied verbatim)
+- configs/cpt_jv_v5_clean.yaml → configs/cpt_javanese.yaml (copied verbatim)
+- configs/cpt_su_v5_clean.yaml → configs/cpt_sundanese.yaml (copied verbatim)
+- configs/mb_jv_zs_large_v5cleanS20k_no_gate_lnews_lm70_ag0.20.yaml → configs/decode_javanese.yaml (copied verbatim)
+- configs/mb_su_zs_large_v5cleanS20k_gs_lm80_ag20_minb15.yaml → configs/decode_sundanese.yaml (copied verbatim)
+- configs/seeds.yaml ← [generated]
+- data_splits/javanese_search_1000.txt ← [generated]
+- data/speech_corpus/local_jv/train_1000_seed42.jsonl → data_splits/javanese_search_1000.txt (generated 1000 IDs)
+- data_splits/javanese_test_460.txt ← [generated]
+- data/speech_corpus/local_jv/test.jsonl → data_splits/javanese_test_460.txt (generated 460 IDs)
+- data_splits/sundanese_search_1000.txt ← [generated]
+- data/speech_corpus/local_su/train_1000_seed42.jsonl → data_splits/sundanese_search_1000.txt (generated 1000 IDs)
+- data_splits/sundanese_test_460.txt ← [generated]
+- data/speech_corpus/local_su/test.jsonl → data_splits/sundanese_test_460.txt (generated 460 IDs)
+- jv: search/test overlap count = 0
+- su: search/test overlap count = 0
+- gfd/__init__.py → src/decoding/gfd/__init__.py (copied verbatim)
+- gfd/asr_adapters.py → src/decoding/gfd/asr_adapters.py (copied verbatim)
+- gfd/byte_gfd.py → src/decoding/gfd/byte_gfd.py (copied verbatim)
+- gfd/entropy_gate.py → src/decoding/gfd/entropy_gate.py (copied verbatim)
+- gfd/lattice.py → src/decoding/gfd/lattice.py (copied verbatim)
+- gfd/lm_adapters.py → src/decoding/gfd/lm_adapters.py (copied verbatim)
+- gfd/asr_adapters.py → src/whisper/asr_adapters.py (copied verbatim)
+- cpt/__init__.py → src/cpt/__init__.py (copied verbatim)
+- cpt/train.py → src/cpt/train.py (copied verbatim)
+- scripts/run_exp_mb.py → src/scoring/run_exp_mb.py (copied verbatim)
+- scripts/run_whisper_baseline.py → src/scoring/run_whisper_baseline.py (copied verbatim)
+- scripts/gen_gs20k_1k_configs.py → src/search/gen_gs20k_1k_configs.py (copied verbatim)
+- scripts/launch_gs20k_1k_remote.sh → src/search/launch_gs20k_1k_remote.sh (copied verbatim)
+- scripts/launch_ckptsel1k.sh → src/selection/launch_ckptsel1k.sh (copied verbatim)
+- scripts/_ckptsel1k_jv_10k.sh → src/selection/_ckptsel1k_jv_10k.sh (copied verbatim)
+- scripts/_ckptsel1k_su_10k.sh → src/selection/_ckptsel1k_su_10k.sh (copied verbatim)
+- scripts/make_search_sample.py → src/search/make_search_sample.py (copied verbatim)
+- scripts/sample_train_manifest.py → src/search/sample_train_manifest.py (copied verbatim)
+- scripts/prepare_cpt_v2.py → src/cpt/prepare_cpt_v2.py (copied verbatim)
+- src/search/gen_gs20k_1k_configs.py (patched absolute ROOT → relative repository root)
+- src/selection/launch_ckptsel1k.sh (patched absolute ROOT / host mount / remote host placeholders)
+- src/search/launch_gs20k_1k_remote.sh (patched absolute ROOT / host mount / remote host placeholders)
+- src/selection/_ckptsel1k_jv_10k.sh (rewritten with relative ROOT and release paths)
+- src/selection/_ckptsel1k_su_10k.sh (rewritten with relative ROOT and release paths)
+- docs/CONFIG_REFERENCE.md (clarified trie-state formula to use an explicit 4-slot conv cache)
+- src/selection/launch_ckptsel1k.sh (moved generated runner into .generated/, pointed to src/scoring/run_exp_mb.py, redacted remote branch)
+- src/search/launch_gs20k_1k_remote.sh (pointed generated runner to src/scoring/run_exp_mb.py, redacted remote dispatch, kept runner generation)
+- src/search/launch_gs20k_1k_remote.sh (updated final status message to say runners are generated, not dispatched)
+- logs/hparam_search/jv_gridsearch.log ← [generated]
+- logs/hparam_search/su_gridsearch.log ← [generated]
+- results/checkpoint_used.md ← [generated]
+- docs/CONFIG_REFERENCE.md ← [generated]
+- docs/REPRODUCE.md ← [generated]
+- docs/DATA.md ← [generated]
+- src/decoding/README.md ← [generated]
+- src/whisper/README.md ← [generated]
+- src/cpt/README.md ← [generated]
+- src/selection/README.md ← [generated]
+- src/scoring/README.md ← [generated]
+- src/search/README.md ← [generated]
+- logs/hparam_search/jv_gridsearch.log ← [generated]
+- logs/hparam_search/su_gridsearch.log ← [generated]
+
+## Rescoring experiment integration
+
+- rescoring_experiment/RESULTS.md → experiments/rescoring/RESULTS.md (copied verbatim)
+- rescoring_experiment/FINDINGS.md → experiments/rescoring/FINDINGS.md (copied verbatim)
+- rescoring_experiment/rescored/jv_rescored/jv_summary.json → experiments/rescoring/summaries/jv_summary.json (copied verbatim)
+- rescoring_experiment/rescored/su_rescored/su_summary.json → experiments/rescoring/summaries/su_summary.json (copied verbatim)
+- scripts/generate_whisper_nbest.py → experiments/rescoring/generate_whisper_nbest.py (copied verbatim)
+- scripts/run_whisper_nbest.sh → experiments/rescoring/run_whisper_nbest.sh (copied verbatim; patched repo-root path handling, absolute out-dir normalization, and shell exec flow)
+- scripts/rescore_whisper_nbest.py → experiments/rescoring/rescore_whisper_nbest.py (copied verbatim; patched repo-root path handling and summary-dir output)
+- scripts/run_rescore_whisper_nbest.sh → experiments/rescoring/run_rescore_whisper_nbest.sh (copied verbatim; patched repo-root path handling, summary-dir wiring, and relative-path normalization)
+- scripts/build_rescoring_report.py → experiments/rescoring/build_rescoring_report.py (copied verbatim; patched default summary/output locations)
+- scripts/run_build_rescoring_report.sh → experiments/rescoring/run_build_rescoring_report.sh (copied verbatim; patched repo-root path handling and default summary/output locations)
+- configs/rescoring.yaml ← [generated] exact N=10 / λ / α / byte-limit / permutation-seed values for R2Q2b
+- .gitignore ← [generated] added experiments/rescoring/nbest/ and experiments/rescoring/rescored/ ignores
+- README.md ← [edited] added rescoring experiment link and one-line result summary
+- docs/REPRODUCE.md ← [edited] added rescoring baseline reproduction subsection
+- results/checkpoint_used.md ← [edited] added rescoring-baseline step-20k note
+- RELEASE_REPORT.md ← [edited] added rescoring experiment integration section and rescoring checklist row
+- experiments/rescoring/README.md ← [generated] purpose/fairness/pipeline/results/reproduce doc for the rescoring baseline
+- experiments/rescoring/INTEGRATION_REPORT.md ← [generated] integration summary, import map, gitignore note, and remaining TODOs
+- experiments/rescoring/run_rescore_whisper_nbest.sh ← [edited again] suppressed missing-directory noise when probing for default N-best files
+- experiments/rescoring/run_whisper_nbest.sh / run_rescore_whisper_nbest.sh / run_build_rescoring_report.sh ← [edited again] wrapper exec targets now point to experiments/rescoring/*.py instead of the old scripts/ paths

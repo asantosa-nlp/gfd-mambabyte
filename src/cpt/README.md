@@ -1,0 +1,1 @@
+The CPT component is the LoRA continual-pretraining script for MambaByte. The main entry point is `train.py`, which reads the text corpus, applies LoRA through PEFT, and saves checkpoints every 1,000 steps.

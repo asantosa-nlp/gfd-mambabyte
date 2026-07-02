@@ -1,0 +1,51 @@
+asr:
+  device: cuda
+  dtype: float16
+  model_name_or_path: openai/whisper-large-v3
+eval:
+  blind_manifest: data/speech_corpus/local_su/test.jsonl
+  search_manifest: data/speech_corpus/local_su/gfd_search_300_stratified_seed42.jsonl
+  text_normalization:
+    lowercase: true
+    strip_punctuation: true
+    unicode_form: NFC
+experiment_id: gfd_mambabyte_su_zs_large_v5cleanS30k_no_gate_lnews_lm70_ag0.20_minb15
+fusion:
+  beam_width: 5
+  decoder_backend: cached_trie
+  enable_asr_prefix_cache: false
+  enable_lm_prefix_cache: true
+  entropy_gating:
+    enabled: false
+  fallback_on_error: true
+  heuristic_filters:
+    long_word:
+      enabled: true
+      max_word_bytes: 25
+    penalty: -1000.0
+    rep_detect:
+      enabled: true
+      max_unit: 8
+      min_reps: 4
+      min_unit: 2
+  lambda: 0.7
+  lazy_prefetch: true
+  lm_logit_alpha: 0.2
+  log_prob_floor: -30.0
+  max_output_bytes: 160
+  min_output_bytes: 15
+  patch_boundary_approx: false
+  patch_boundary_threshold: 0.8
+  shift_offset_k: 2
+  top_k_candidates: 20
+language: su
+lm:
+  device: cuda
+  dtype: float32
+  kind: mambabyte
+  lora_ckpt: checkpoints/mb_cpt_su_v5_clean/step_0030000.pt
+  model_name_or_path: JunxiongWang/MambaByte_PG19_972M
+output:
+  blind_dir: results/mb_su_zs_large_v5cleanS30k_no_gate_lnews_lm70_ag0.20_minb15
+  search_dir: results/mb_su_zs_large_v5cleanS30k_no_gate_lnews_lm70_ag0.20_minb15_search
+whisper_lang_code: su

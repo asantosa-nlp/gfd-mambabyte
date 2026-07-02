@@ -1,0 +1,1 @@
+The search component contains the grid-search helpers. The main entry point is `gen_gs20k_1k_configs.py`, which clones the 300-utterance search configs into 1,000-utterance variants for the curiosity runs.

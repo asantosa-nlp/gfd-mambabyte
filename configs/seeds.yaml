@@ -1,0 +1,10 @@
+# All seeds found in this checkout.
+# 42 is the canonical reproducibility seed for sampling and permutation tests.
+# 123 is the seed used for the 50-utterance alpha-grid sample.
+
+sampling_and_manifests:
+  manifest_sampling_seed: 42  # train_1000_seed42.jsonl, search/test split generation, sample_train_manifest.py
+  search_subsample_seed: 42   # gfd_search_300_stratified_seed42.jsonl
+  permutation_test_seed: 42   # statistical tests and reported p-values
+  cpt_corpus_seed: 42         # text cleanup / sampling inside prepare_cpt_v2.py
+  alpha_grid_sample_seed: 123  # alpha_grid_50_seed123.jsonl

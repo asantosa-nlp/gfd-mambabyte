@@ -1,0 +1,1 @@
+The Whisper component is the ASR wrapper used by GFD. The main entry point is `asr_adapters.py`, which loads Whisper, builds forced decoder prefixes, and exposes the cached prefix interface consumed by the decoder.
